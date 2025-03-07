@@ -73,13 +73,14 @@ WSGI_APPLICATION = 'vibot.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# vbotdb.mysql.database.azure.com
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'vbot',
         'USER': 'amogus',
         'PASSWORD': '1272003@dob',
-        'HOST': 'vbotdb.mysql.database.azure.com',
+        'HOST': '',
         'PORT': '3306',
         'ssl': {"fake_flag_to_enable_tls":True},
         'OPTIONS': {
