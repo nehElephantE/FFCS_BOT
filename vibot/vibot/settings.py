@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'vibot.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'vbot',
-        'USER': 'amogus',
-        'PASSWORD': '1272003@dob',
-        'HOST': '',
-        'PORT': '3306',
+        # 'NAME': 'vbot',
+        # 'USER': 'amogus',
+        # 'PASSWORD': '1272003@dob',
+        # 'HOST': '',
+        # 'PORT': '3306',
         'ssl': {"fake_flag_to_enable_tls":True},
         'OPTIONS': {
             'init_command': 'SET default_storage_engine=INNODB',
